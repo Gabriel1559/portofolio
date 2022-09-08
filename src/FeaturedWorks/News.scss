@@ -1,0 +1,68 @@
+.news {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: center;
+}
+
+.txtbox {
+	display: flex;
+	flex-direction: column;
+	font-family: "Heebo";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 44px;
+	a {
+		text-decoration: none;
+		color: black;
+	}
+	a:hover {
+		background: none;
+	}
+}
+
+.year-tag {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	padding: 18px 0;
+	.year {
+		padding: 0 10px;
+		background: #142850;
+		border-radius: 16px;
+		color: white;
+		font-size: 18px;
+	}
+	.tag {
+		color: #8695a4;
+	}
+}
+
+.image {
+	min-width: 246px;
+	max-width: 246px;
+	min-height: 180px;
+	max-height: 180px;
+	border-radius: 6px;
+}
+
+@media (max-width: 992px) {
+	.news {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	ul {
+		text-align: right;
+	}
+	.image {
+		max-width: 339px;
+		max-height: 230px;
+		min-width: 339px;
+		min-height: 230px;
+	}
+	.txtbox {
+		font-size: 20px;
+	}
+}

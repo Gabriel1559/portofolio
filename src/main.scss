@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+
+:root {
+	--side-padding: 150px;
+}
+
+@media (max-width: 992px) {
+	:root {
+		--side-padding: 0;
+	}
+}

@@ -1,0 +1,68 @@
+.singlework {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	max-width: 680px;
+	margin-inline: auto;
+	.h11 {
+		font-family: "Heebo";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 34px;
+		line-height: 50px;
+		max-width: 506px;
+	}
+
+	.workimage {
+		width: 100%;
+		height: 460px;
+	}
+
+	.worktags-year {
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+
+		.workyear {
+			background: #ff7c7c;
+			padding: 0 10px;
+			border-radius: 16px;
+			color: white;
+			font-size: 18px;
+		}
+
+		.worktags {
+			font-family: "Heebo";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 29px;
+		}
+	}
+
+	.workdescription {
+		font-family: "Heebo";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.workheader {
+		padding-top: 25px;
+		h1 h2 {
+			font-family: "Heebo";
+			font-style: normal;
+			font-weight: 500;
+			font-size: px;
+			line-height: 60px;
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.singlework {
+		padding: 20px;
+		gap: 25px;
+	}
+}

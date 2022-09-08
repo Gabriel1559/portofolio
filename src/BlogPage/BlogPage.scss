@@ -1,0 +1,31 @@
+.blogpage {
+	display: flex;
+	max-width: 680px;
+	margin-inline: auto;
+	gap: 55px;
+	flex-direction: column;
+}
+.blogstitle {
+	font-family: "Heebo";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 60px;
+}
+.line {
+	width: 100%;
+	height: 1px;
+	color: #e0e0e0;
+	border: 1px solid #e0e0e0;
+}
+.blogposts {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+@media (max-width: 992px) {
+	.blogpage {
+		padding: 0 20px;
+	}
+}

@@ -1,0 +1,55 @@
+.contactpage {
+	display: flex;
+	flex-direction: row;
+	margin-inline: auto;
+	justify-content: space-evenly;
+	width: 100%;
+	padding: 100px 100px 0;
+	gap: 20px;
+}
+
+.contacttext {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.findme {
+	font-family: "Heebo";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+
+.contactinfo {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.singleinfo {
+	display: flex;
+	gap: 20px;
+}
+
+img {
+	width: 600px;
+	object-fit: cover;
+}
+
+@media (max-width: 992px) {
+	.imaje {
+		display: none;
+	}
+
+	.contactpage {
+		padding: 10px;
+		flex-direction: column;
+	}
+
+	.contactinfo {
+		padding: 10px;
+	}
+}

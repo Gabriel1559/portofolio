@@ -1,0 +1,14 @@
+[
+	{
+		"title": "This is a awesome title!",
+		"date": "20-12-2020",
+		"tags": ["TAG1", "TAG2"],
+		"description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+	},
+	{
+		"title": "This is a wow title!",
+		"date": "20-12-2020",
+		"tags": ["TAG1", "TAG2"],
+		"description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+	}
+]

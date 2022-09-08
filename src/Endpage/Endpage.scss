@@ -1,0 +1,22 @@
+.icons {
+	display: flex;
+	justify-content: center;
+	gap: 35px;
+	padding-top: 130px;
+	padding-bottom: 26px;
+	svg {
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+	}
+}
+
+.copyright {
+	font-family: Heebo;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0px;
+	text-align: center;
+	padding-bottom: 54px;
+}

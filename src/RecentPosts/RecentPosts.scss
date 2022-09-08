@@ -1,0 +1,50 @@
+.recentPosts {
+	background: #edf7fa;
+	padding: 20px var(--side-padding);
+	margin: 0px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+
+	.header {
+		display: flex;
+		justify-content: center;
+		gap: 15%;
+		padding: 20px;
+		div:first-child {
+			width: 418px;
+			align-self: flex-start;
+			font-size: 20px;
+		}
+		div:last-child {
+			width: 418px;
+			align-self: flex-end;
+			text-align: right;
+			font-size: 20px;
+		}
+	}
+}
+
+.postflex {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 15%;
+	width: 100%;
+}
+
+@media (max-width: 992px) {
+	.postflex {
+		flex-direction: column;
+		gap: 17px;
+		align-items: center;
+	}
+	.header {
+		justify-content: center;
+		text-align: center;
+		a {
+			display: none;
+		}
+	}
+}
